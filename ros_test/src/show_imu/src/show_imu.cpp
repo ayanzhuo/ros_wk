@@ -1,5 +1,4 @@
-#include "ros/ros.h"
-#include "sensor_msgs/Imu.h"
+#include "show_imu.h"
 
 void chatterCallback(const sensor_msgs::Imu::ConstPtr &msg)
 {

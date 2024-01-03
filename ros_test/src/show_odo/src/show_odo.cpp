@@ -1,5 +1,4 @@
-#include "ros/ros.h"
-#include "nav_msgs/Odometry.h"
+#include "show_odo.h"
 void odometryCallback(const nav_msgs::Odometry::ConstPtr &msg)
 {
     ROS_INFO("Position: x=%f, y=%f, z=%f",
